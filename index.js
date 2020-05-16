@@ -9,6 +9,7 @@ const   Discord = require('discord.js'),
         clear = require('clear'),
         client = new Discord.Client(),
         colors = require('colors');
+        axios = require('axios').default;
 
 /**
  * Environnement Variables in config/.env
