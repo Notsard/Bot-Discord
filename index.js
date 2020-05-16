@@ -72,4 +72,5 @@ client.on('message', message => {
       message.reply(message.author.displayAvatarURL);
     }
   });
+  setInterval( () => { axios.get("https://bot-notsard.herokuapp.com/") }, 1740000)
 client.login(token);
